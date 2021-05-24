@@ -1,0 +1,123 @@
+section {
+  position: relative;
+  display: inline-flex;
+  margin-top: 25px;
+  padding: 10px;
+  /* background-color: #ff0157; */
+  width: 99%;
+}
+
+.row {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.row .col {
+  width: 48%;
+  position: relative;
+  line-height: 30px;
+  margin: 0 25px 0 25px;
+}
+
+.title {
+  color: #111;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.row .col p {
+  font-size: 20px;
+}
+
+.title span {
+  color: #ff0157;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.row .col .imgBx {
+  position: relative;
+  width: 100%;
+  height: 445px;
+}
+
+.row .col .imgBx img {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+button.child:hover + img.child,
+img.child:hover {
+  width: 550px;
+  height: 350px;
+
+  transform: translate(-25px, -25px);
+
+  opacity: 0.5;
+}
+
+.row .col button.child {
+  width: 200px;
+
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 5px;
+  background-color: transparent;
+
+  position: absolute;
+  z-index: 1;
+  left: 10px;
+  top: 120px;
+
+  transform: translate(100px, 100px);
+  transition: color 2s, border 2s;
+
+  border-radius: 6px;
+  border: none;
+  border: 2px solid orangered;
+}
+
+.row .col button.child:focus {
+  outline: none;
+}
+
+.row .col button.child span {
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+}
+
+.row .col button.child span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+
+.row .col button.child:hover span {
+  padding-right: 25px;
+}
+
+.row .col button.child:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+.row .col button.child a.child {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

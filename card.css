@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 600px;
+  height: 350px;
+
+  position: relative;
+  margin: 20px;
+
+  border-radius: 20px;
+
+  background: linear-gradient(135deg, #d41e31, #491f8f);
+}
+
+.card img {
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
+  transition: 0.5s;
+
+  height: 400px;
+
+  background-color: none;
+}
+
+.card:hover img {
+  left: 80%;
+  height: 500px;
+}
+
+.card .content {
+  position: relative;
+
+  width: 50%;
+  left: 20%;
+
+  padding: 20px 20px 20px 40px;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: 0.5s;
+}
+
+.card:hover .content {
+  opacity: 1;
+  visibility: visible;
+  left: 0%;
+}
+
+.card .content h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+.card .content p {
+  color: #fff;
+}
+
+.card .content a {
+  position: relative;
+  display: inline-block;
+  color: #111;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.card .content .button-add {
+  opacity: 1;
+  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  white-space: nowrap;
+  vertical-align: top;
+
+  position: absolute;
+  top: 200px;
+  left: 30px;
+}
+
+.card .content .button-add .is-form {
+  overflow: hidden;
+  position: relative;
+  background-color: #f9f9f9;
+  height: 3.5rem;
+  width: 2.0rem;
+  padding: 0;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.card .content .button-add .is-form:focus{
+    outline: none;
+}
+
+.is-form:focus .input-text:focus {
+  outline: none;
+}
+
+.card .content .button-add .is-form.minus {
+  border-radius: 4px 0 0 4px;
+}
+
+.card .content .button-add .is-form.plus {
+  border-radius: 0 4px 4px 0;
+}
+
+.card .content .button-add .input-qty {
+  background-color: #fff;
+  height: 3.5rem;
+
+  text-align: center;
+  font-size: 1rem;
+  display: inline-block;
+
+  vertical-align: top;
+  margin: 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+
+  border-left: 0;
+  border-right: 0;
+  padding: 0;
+}
+
+.card .content .button-add .input-qty::-webkit-outer-spin-button,
+.card .content .button-add .input-qty::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
