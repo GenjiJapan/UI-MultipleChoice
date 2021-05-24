@@ -1,0 +1,47 @@
+div.intro{
+    width: 100%;
+    height: 650px;
+
+    margin-top: 0px;
+
+    background-color: none;
+}
+
+div.body{
+    width: 100%;
+    height: 3000px;
+
+    /* background: #333333;
+    color: #989898; */
+
+    /* background:  #182F41; */
+    /* background: #F19372; */
+    /* color: #CAC2B1; */
+    color: #fff;
+    background: #f1f1f1;
+}
+
+.cake{
+    margin-top: 340px;
+    margin-left: 280px;
+}
+
+.noodle{
+    margin-left: 800px;
+    margin-top: 340px;
+}
+
+.candy{
+    margin-left: 1060px;
+    margin-top: 20px;
+}
+
+.cereals{
+    margin-top: 20px;
+    margin-left: 540px;
+}
+
+.ricepapers{
+    margin-top: 20px;
+    margin-left: 20px;
+}

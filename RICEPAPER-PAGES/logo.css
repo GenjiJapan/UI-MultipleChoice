@@ -1,0 +1,10 @@
+.bakery-girl{
+    width: 150px;
+    height: 150px;
+
+    position: absolute;
+    margin-left:45% ;
+    margin-top: 25px;
+
+    background-color: rgb(25,41,64);
+}

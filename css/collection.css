@@ -1,0 +1,92 @@
+.container {
+  width: 500px;
+  height: 300px;
+
+  background-color: black;
+
+  position: absolute;
+  /* margin-left: 20px;
+  margin-top: 20px; */
+  border-radius: 5px;
+
+  overflow: hidden;
+}
+
+img.child {
+  width: 600px;
+  height: 400px;
+
+  border-radius: 5px;
+   
+  object-fit: cover;
+  
+  transform: translate(-50px, -50px);
+  transition: width 2s, height 2s, transform 2s, opacity 2s;
+}
+
+button.child:hover + img.child,
+img.child:hover {
+  width: 550px;
+  height: 350px;
+
+  transform: translate(-25px, -25px);
+
+  opacity: 0.5;
+}
+
+button.child {
+  width: 200px;
+
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 5px;
+  background-color: transparent;
+
+  position: absolute;
+  z-index: 1;
+  left: 8px;
+  top: 25px;
+
+  transform: translate(100px, 100px);
+  transition: color 2s, border 2s;
+
+  border-radius: 6px;
+  border: none;
+  border: 2px solid orangered;
+}
+
+button.child:focus{
+  outline: none;
+}
+
+button.child span {
+  display: inline-block;
+  position: relative;
+  transition: 1s;
+}
+
+button.child span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 1s;
+}
+
+button.child:hover span {
+  padding-right: 25px;
+}
+
+button.child:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+
+a.child{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}

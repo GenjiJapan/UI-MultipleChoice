@@ -1,0 +1,183 @@
+
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  text-align: center;
+
+  background-color: none;
+
+  height: 50px;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  height: 50px;
+}
+
+
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 40px;
+
+  /* text-align: center; */
+  margin: 15px 45px;
+
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 250px;
+  height: 40px;
+
+  /* text-align: center; */
+  margin-left: 45px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.phone,
+.password:focus {
+  outline: none;
+}
+
+button.modal-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 255px;
+  height: 40px;
+
+  margin: 10px 45px;
+
+  background-color: rgb(255, 100, 0);
+
+  border-radius: 5px;
+  border: none;
+}
+
+button.modal-body:focus {
+  outline: none;
+  /* background-color: rgb(255,208,203); */
+}
+
+.btn__fb {
+  width: 258px;
+  height: 40px;
+  line-height: 19px;
+
+  font-size: 19px;
+
+  background-color: rgb(59, 89, 152);
+  color: rgb(255, 255, 255);
+
+  margin: 34px 45px 0 45px;
+
+  border-radius: 5px;
+  border: none;
+}
+
+.btn__fb:focus {
+  outline: none;
+}
+
+.btn__gg {
+  width: 258px;
+  height: 40px;
+  line-height: 19px;
+
+  font-size: 19px;
+
+  background-color: rgb(221, 75, 57);
+  color: rgb(255, 255, 255);
+
+  margin: 20px 45px 0 45px;
+
+  border-radius: 5px;
+  border: none;
+}
+
+.btn__gg:focus {
+  outline: none;
+}
+
+div.text-area {
+  width: 280px;
+  height: 42px;
+
+  text-align: center;
+
+  margin: 15px 35px 0px 35px;
+}
+
+a.forgot {
+  font-size: 14px;
+
+  text-decoration: none;
+
+  color: rgb(74, 74, 74);
+}
+
+a.forgot:hover {
+  color: rgb(255, 100, 0);
+}
+
+p.or {
+  width: 260px;
+  height: 19px;
+
+  text-align: center;
+  position: relative;
+
+  border-top: 1px solid rgb(74, 74, 74);
+
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+span.or {
+  /* background-color: rgb(255,255,255); */
+  background-color: rgb(255, 208, 203);
+  color: rgb(74, 74, 74);
+
+  width: 60px;
+  font-size: 20px;
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+p.signup{
+  text-align: center;
+
+  margin-top: 10px;
+}
+
+a.signup{
+  text-decoration: none;
+}
+
+a.signup:hover{
+  color: rgb(255, 100, 0);
+}

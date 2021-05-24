@@ -1,0 +1,22 @@
+div.inner{
+    width: 1062px;
+    height: 450px;
+
+    /* background-color: rgb(25,41,64); */
+
+    position: relative;
+    margin: 0px 261px;
+    z-index: 3;
+}
+
+img.brand{
+    margin: 150px 200px 0px 0px;
+
+    width: 480px;
+    height: 480px;
+
+    z-index: 100;
+
+    /* background-color:rgb(25,41,64) ; */
+    background-color: none;
+}

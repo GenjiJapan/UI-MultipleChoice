@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- BOOTSTRAP_CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!-- FONT FAMILY -->
+    <link href="//db.onlinewebfonts.com/c/e369db779c6aaa86de79e88363dd3abe?family=Prosto" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Lobster&display=swap" rel="stylesheet">
+
+    <!-- ICON FB -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- MATERIAL ICON -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <!-- HEAD -->
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/head-menu.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="./css/log-in.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <link rel="stylesheet" href="./css/inner.css">
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" href="./css/signinForm.css">
+    <link rel="stylesheet" href="./css/sticky-header.css">
+    <link rel="stylesheet" href="./css/loader.css">
+
+    <!-- BODY -->
+    <link rel="stylesheet" href="./css/goods.css">
+    <link rel="stylesheet" href="./css/intro.css">
+    <link rel="stylesheet" href="./css/collection.css">
+    <link rel="stylesheet" href="./css/bestseller.css">
+    <!-- <link rel="stylesheet" href="./css/rowAbout.css"> -->
+    <link rel="stylesheet" href="../TEST/ScrollTrigger.css">
+
+    <!-- FOOTER -->
+    <link rel="stylesheet" href="./css/Footer.css">
+</head>
+
+<body onscroll="onscroll()" id="no1__body">
+    <!-- <div class="loader"></div> -->
+    <header>
+        <a href="index.html" class="logo"><span>S</span>nack.kit</a>
+        <ul class="navigation">
+            <!-- <div id="marker"></div> -->
+            <li>
+                <a href="#">
+                    <span>Trang chủ</span>
+                    <span>Trang chủ</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span>Giới thiệu</span>
+                    <span>Giới thiệu</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span>Sản phẩm</span>
+                    <span>Sản phẩm</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span>Hỗ trợ</span>
+                    <span>Hỗ trợ</span>
+                </a>
+            </li>
+        </ul>
+
+        <button id="myBtn" onclick="showModal()">
+            <span class="glyphicon glyphicon-user"></span> Đăng nhập
+        </button>
+        <div id="myModal" class="modal fade" role="dialog">
+            <div class="modal-content">
+                <section>
+                    <div class="container">
+                        <div class="user signinBx">
+                            <div class="imgBx"><img src="./image/logo.jpg" alt=""></div>
+                            <div class="formBx">
+                                <form action="">
+                                    <span class="close" data-dismiss="modal" onclick="closeModal()">&times;</span>
+                                    <h2>Đăng nhập</h2>
+                                    <input type="text" placeholder="Tài khoản">
+                                    <input type="password" placeholder="Mật khẩu" id="password">
+                                    <div id="toggle" onclick="showHide();"></div>
+                                    <input type="submit" value="Đăng nhập">
+                                    <p class="signup">Không có tài khoản ?<a href="#" onclick="toggleForm();">Đăng kí.</a></p>
+                                    <div class="text-area">
+                                        <p class="or"><span class="or">hoặc</span></p>
+                                        <a href="https://www.facebook.com/"><i class="fa fa-facebook"
+                                                aria-hidden="true"></i></a>
+                                        <a href="https://www.instagram.com/"><i class="fa fa-instagram"
+                                                aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                        <a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="user signupBx">
+                            <div class="formBx">
+                                <form action="">
+                                    <h2>Tạo tài khoản</h2>
+                                    <input type="text" placeholder="Tài khoản">
+                                    <input type="email" placeholder="Địa chỉ Email">
+                                    <input type="password" placeholder="Mật khẩu mới">
+                                    <input type="password" placeholder="Xác nhận mật khẩu">
+                                    <input type="submit" value="Đăng kí">
+                                    <p class="signup">Đã có tài khoản ?<a href="#" onclick="toggleForm()">Đăng nhập.</a>
+                                    </p>
+                                </form>
+                            </div>
+                            <div class="imgBx"><img src="./image/logo.jpg" alt=""></div>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </header>
+    <div class="head">
+        <img src="C:\Users\nghi.le\Desktop\KV\image\Website-Design-Background.png" alt="" class="no1 " id="no1__section">
+
+        <div class="inner">
+            <img src="C:\Users\nghi.le\Desktop\KV\image\logo1.png" alt="" class="brand">
+        </div>
+
+
+    </div>
+
+    <div class="body">
+
+        <!-- SẢN PHẨM CHUNG -->
+
+        <div class="cInnerContent">
+
+            <div class="features">
+
+                <div class="feature ipsSpacer_bottom_double ipsGrid ">
+                    <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
+                        <div class="card">
+                            <img src="./image/cereals.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="ipsGrid_span7 ipsType_left">
+                        <h2 class="heading_large gs_reveal"><strong>Ngũ cốc</strong> sữa chua</h2>
+                        <p class="gs_reveal">
+                            Chắc hẳn cái tên “𝗡𝗴𝘂̃ 𝗰𝗼̂́𝗰 𝘀𝘂̛̃𝗮 𝗰𝗵𝘂𝗮" từng làm mưa làm gió nửa năm vừa qua,
+                            vô địch về độ ngon, thơm nức mũi trong các hãng Ngũ cốc Yến mạch nội địa Trung đều
+                            không xa lạ với các tín đồ gymmer, giảm cân người rồi đúng không ạ?Sau nhiều tháng
+                            nghiên cứu, phát triển thành phần, tính Calories phù hợp cho “Giảm cân” & “Tăng cân”
+                            nhất với mọi người. Có giấy chứng nhận, nhập khẩu chính ngạch, phân phối tại Việt Nam
+                            <a class="child btn btn-5 " href="./RICEPAPER-PAGES/ricepaper-pages.html"><span>Xem thêm</span></a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="feature ipsSpacer_bottom_double ipsGrid ">
+                    <div class="ipsGrid_span7 ipsType_right">
+                        <h2 class="heading_large gs_reveal">Supercharge immersive <strong>WebGL</strong> experiences
+                        </h2>
+                        <p class="gs_reveal">
+                            <a class="child btn btn-5 " href="./RICEPAPER-PAGES/ricepaper-pages.html"><span>Xem thêm</span></a>
+                        </p>
+
+                    </div>
+
+                    <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
+                        <div class="card">
+                            <img src="./image/chocopie.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature ipsSpacer_bottom_double ipsGrid ">
+                    <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromLeft">
+                        <div class="card">
+                            <img src="./image/noodle.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="ipsGrid_span7 ipsType_left">
+                        <h2 class="heading_large gs_reveal">Đồ<strong>ăn vặt</strong></h2>
+                        <p class="gs_reveal">
+                            ĂN VẶT CÓ GU - MÓN NGON PHẢI THỦ✌️ Thủ ngay đồ ăn vặt nhâm nhi sẵn cất dần
+                            mà ăn nha hôn ? Chứ đến khi muốn ăn lại phải đợi em ship nữa là thèm lắm à nghen
+                            <a class="child btn btn-5 " href="./RICEPAPER-PAGES/ricepaper-pages.html"><span>Xem thêm</span></a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="feature ipsSpacer_bottom_double ipsGrid ">
+                    <div class="ipsGrid_span7 ipsType_right">
+                        <h2 class="heading_large gs_reveal"><strong>Bánh tráng</strong></h2>
+                        <p class="gs_reveal">
+                            BÁNH TRÁNG là cái tên ko còn xa lạ với các tín đồ mê ăn vặt , nhưng để tìm được một chỗ
+                            ngon và uy tín thì BÁNH TRÁNG SNACK.KIT tự hào làm vừa miệng tất cả cả các khẩu vị của những khách
+                            hàng khó tính nhất , bạn nào đã ăn qua BÁNH TRÁNG SNACK.KIT rồi thì chắc chắn sẽ khó quên
+                            được hương vị độc quyền của chúng tôi
+                            <a class="child btn btn-5 " href="./RICEPAPER-PAGES/ricepaper-pages.html"><span>Xem thêm</span></a>
+                        </p>
+                    </div>
+
+                    <div class="featured-image-container ipsGrid_span5 gs_reveal gs_reveal_fromRight">
+                        <div class="card">
+                            <img src="./image/bo_cuon.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- BESTSELLER -->
+        
+
+        <div class="container1">
+            <div class="card1">
+                <div class="box">
+                    <div class="content">
+                        <img src="C:\Users\nghi.le\Desktop\KV\image\pink-removebg-preview.png" alt="">
+                        <h3>Hồng đậm</h3>
+                        <p>55.000 đồng </p>
+                        <a href="#">Mua hàng</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="box">
+                    <div class="content">
+                        <img src="C:\Users\nghi.le\Downloads\ngucoc-removebg-preview.png" alt="">
+                        <h3>Tím</h3>
+                        <p>55.000 đồng </p>
+                        <a href="#">Mua hàng</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="box">
+                    <div class="content">
+                        <img src="C:\Users\nghi.le\Desktop\KV\image\yellow-removebg-preview.png" alt="">
+                        <h3>Vàng</h3>
+                        <p>55.000 đồng </p>
+                        <a href="#">Mua hàng</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card1">
+                <div class="box">
+                    <div class="content">
+                        <img src="C:\Users\nghi.le\Desktop\KV\image\blue-removebg-preview.png" alt="">
+                        <h3>Xanh</h3>
+                        <p>55.000 đồng</p>
+                        <a href="#">Mua hàng</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container2">
+            <div class="sec aboutus">
+                <h2>Về chúng tôi</h2>
+                <p>Disclaimer video is for educational purpose only. Copyright Disclaimer Under Section 107 of the
+                    Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news
+                    reporting, teaching, scholarship, and research.
+                    Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit,
+                    educational or personal use tips the balance </p>
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/snack.kitt"><i class="fa fa-facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/snack.kitt/"><i class="fa fa-instagram"
+                                aria-hidden="true"></i></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="sec quickLinks">
+                <h2>Thông tin</h2>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Điều khoản hoàn trả bánh</a></li>
+                    <li><a href="#">Trợ giúp</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+
+            <div class="sec contact">
+                <h2>Thông tin liên hệ</h2>
+                <ul class="info">
+                    <li>
+                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span>134/34/11 đường số 1, Phường 16, Quận Gò Vấp, TP HCM</span>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <p><a href="#">093 130 3515</a></p>
+                    </li>
+                    <li>
+                        <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <p><a href="#">leng.kimvy@gmail.com</a></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- script tag -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <script src="./JS/Paralax.js"></script>
+    <script src="./JS/ScrollTrigger.js"></script>
+    <script src="./JS/Lazy-Load.js"></script>
+    <script src="./JS/Sticky-header.js"></script>
+    <script src="./JS/Modal.js"></script>
+    <script src="./JS/Transition-tab-login.js"></script>
+    <script src="./JS/Login.js"></script>
+    <script src="./JS/event-BottomLine.js"></script>
+
+    <script src="./JS/show-hide-Pass.js"></script>
+
+</body>
+
+</html>
