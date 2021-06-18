@@ -19,10 +19,153 @@
     <link rel="stylesheet" href="quiz-form.css">
     <link rel="stylesheet" href="lobby.css">
     <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="login.css">
   </head>
   <body>
 
-    <div class="container__lobby">
+
+    <section class="section">
+      <div class="container__login">
+        <div class="user signinBx">
+          <div class="formBx" id="login">
+            <form action="" class="login-form">
+              <h2>Login</h2>
+
+              <div class="inputBox">
+                <input type="text" required spellcheck="false" name="username" />
+                <span class="text">User Name or Email</span>
+              </div>
+
+              <div
+                id="toggle"
+                onclick="showHide();"
+                style="display: none"
+              ></div>
+
+              <div class="inputBox">
+                <input
+                  type="password"
+                  id="password"
+                  onkeydown="showHidePass(event);"
+                  required
+                  name="password"
+                />
+                <span class="text">Password</span>
+              </div>
+
+              <input type="submit" value="Login" class="login-form-submit"/>
+              <p class="signup">
+                Dont have account ?<a href="#" onclick="toggleForm();"
+                  >Signup.</a
+                >
+              </p>
+              <p class="signup">
+                Forget password ?<a onclick="Form()">Click here.</a>
+              </p>
+              <div class="text-area">
+                <p class="or"><span class="or">Or Login</span></p>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="user signupBx">
+          <div class="formBx">
+            <form action="">
+              <h2>Register</h2>
+              <div class="inputBox">
+                <input type="text" required spellcheck="false" />
+                <span class="text">User Name</span>
+              </div>
+              <div class="inputBox">
+                <input type="email" required spellcheck="false" />
+                <span class="text">Your Email</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" required />
+                <span class="text">Your Phone</span>
+              </div>
+
+              <div id="toggle" onclick="showHide();"></div>
+
+              <div class="inputBox">
+                <input type="password" required />
+                <span class="text">New Password</span>
+              </div>
+
+              <div class="inputBox">
+                <input type="password" required />
+                <span class="text">Confirm Password</span>
+              </div>
+
+              <input type="submit" value="Login " onclick="toggleForm()" />
+              <input type="button" value="Submit" />
+              <p class="signup">
+                Already have account ?<a href="#" onclick="toggleForm()"
+                  >LogIn.</a
+                >
+              </p>
+              <!-- <div class="text-area">
+                <p class="or"><span class="or">Or Signup</span></p>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+              </div> -->
+            </form>
+          </div>
+        </div>
+
+        <div class="user forgotBx">
+          <div class="formBx">
+            <form action="">
+              <h2>Reset</h2>
+              <div class="inputBox">
+                <input type="text" required spellcheck="false" />
+                <span class="text">User Name</span>
+              </div>
+              <div class="inputBox">
+                <input type="email" required spellcheck="false" />
+                <span class="text">Your Email</span>
+              </div>
+              <div class="inputBox">
+                <input type="text" required />
+                <span class="text">Your Phone</span>
+              </div>
+
+              <div id="toggle" onclick="showHide();"></div>
+
+              <div class="inputBox">
+                <input type="password" required />
+                <span class="text">New Password</span>
+              </div>
+
+              <div class="inputBox">
+                <input type="password" required />
+                <span class="text">Confirm Password</span>
+              </div>
+
+              <div id="toggle" onclick="showHide();"></div>
+
+              <input type="submit" value="Login " onclick="Form()" />
+              <input type="button" value="Submit" />
+              <!-- <p class="signup">
+                Already have account ?<a href="#" 
+                  >LogIn.</a
+                >
+              </p>
+              <div class="text-area">
+                <p class="or"><span class="or">Or Signup</span></p>
+                <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+              </div> -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container__lobby" style="display: none;">
       <div class="head">
         <div class="head__id">
           <h2>3711827</h2>
@@ -269,6 +412,61 @@
     </div>
     
     <script>
+
+      var a = document.querySelector(".container__quiz");
+      var b = document.querySelector(".container__start");
+      var c = document.querySelector('.container__lobby');
+      var d = document.querySelector('.container__rank');
+      const CformLog = document.querySelector('.section')
+      const formLog = document.querySelector('.login-form');
+      const btnLog = document.querySelector('.login-form-submit');
+      const password = document.getElementById("password");
+      const toggle = document.getElementById("toggle");
+
+      btnLog.addEventListener('click', (e) => {
+        e.preventDefault();
+        const username = formLog.username.value;
+        const password = formLog.password.value;
+        if( username === 'admin' && password === 'admin'){
+          alert('Great !!!')
+          formLog.style.display = "none";
+          CformLog.style.display = "none"
+          c.style.display = "block";
+        }
+        else{
+          alert('sikeee !! Its wrong number')
+        }
+      })
+
+      // Type & show / hide Toggle
+      function showHidePass() {
+        if (password.value.length > 0) {
+          toggle.style.display = "block";
+        } else {
+          toggle.style.display = "none";
+        }
+      }
+
+      // show hide password
+      function showHide() {
+        if (password.type === "password") {
+          password.setAttribute("type", "text");
+          toggle.classList.add("hide");
+        } else {
+          password.setAttribute("type", "password");
+          toggle.classList.remove("hide");
+        }
+      }
+
+      function toggleForm() {
+        var container = document.querySelector(".container__login");
+        container.classList.toggle("active");
+      }
+
+      function Form() {
+        var container = document.querySelector(".container__login");
+        container.classList.toggle("activate");
+      }
       // Type & change Color
       function changeColor() {
         var submit = document.getElementById('submit');
@@ -282,10 +480,7 @@
       }
 
       // transform div 
-      var a = document.querySelector(".container__quiz");
-      var b = document.querySelector(".container__start");
-      var c = document.querySelector('.container__lobby');
-      var d = document.querySelector('.container__rank');
+      
       function intoStart() {
         if (b.style.display === "none") {
           b.style.display = "block";

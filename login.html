@@ -24,17 +24,26 @@
               <h2>Login</h2>
 
               <div class="inputBox">
-                <input  type="text"  required spellcheck="false" />
+                <input type="text" required spellcheck="false" />
                 <span class="text">User Name or Email</span>
               </div>
 
-              <div id="toggle" onclick="showHide();" style="display: none"></div>
+              <div
+                id="toggle"
+                onclick="showHide();"
+                style="display: none"
+              ></div>
 
               <div class="inputBox">
-                <input  type="password"  id="password" onkeydown="showHidePass(event);" required />
+                <input
+                  type="password"
+                  id="password"
+                  onkeydown="showHidePass(event);"
+                  required
+                />
                 <span class="text">Password</span>
               </div>
-              
+
               <input type="submit" value="Login" />
               <p class="signup">
                 Dont have account ?<a href="#" onclick="toggleForm();"
@@ -69,19 +78,19 @@
                 <input type="text" required />
                 <span class="text">Your Phone</span>
               </div>
-              
+
               <div id="toggle" onclick="showHide();"></div>
 
               <div class="inputBox">
                 <input type="password" required />
                 <span class="text">New Password</span>
               </div>
-              
+
               <div class="inputBox">
                 <input type="password" required />
                 <span class="text">Confirm Password</span>
               </div>
-            
+
               <input type="submit" value="Login " onclick="toggleForm()" />
               <input type="button" value="Submit" />
               <p class="signup">
@@ -114,21 +123,21 @@
                 <input type="text" required />
                 <span class="text">Your Phone</span>
               </div>
-              
+
               <div id="toggle" onclick="showHide();"></div>
 
               <div class="inputBox">
                 <input type="password" required />
                 <span class="text">New Password</span>
               </div>
-              
+
               <div class="inputBox">
                 <input type="password" required />
                 <span class="text">Confirm Password</span>
               </div>
-              
+
               <div id="toggle" onclick="showHide();"></div>
-              
+
               <input type="submit" value="Login " onclick="Form()" />
               <input type="button" value="Submit" />
               <!-- <p class="signup">
@@ -153,8 +162,6 @@
     ></script>
 
     <script>
-
-
       const password = document.getElementById("password");
       const toggle = document.getElementById("toggle");
 
