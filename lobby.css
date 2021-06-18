@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   font-family: "Montserrat", sans-serif;
 
-  /* background: #091921; */
+  background: #091921;
   display: flex;
   justify-content: center;
   align-items: center;

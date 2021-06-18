@@ -506,16 +506,18 @@
             a.style.display = "none";
             clearInterval(timeLeft = 60);
           }
+          
           // setTimeout(function(){
           //     if(c.style.display === "none"){
           //     c.style.display = "block";
           //     d.style.display = "none";
           //   }
+            
           // }, 6000);
-
           timeLeftDisplay.innerHTML = timeLeft;
           timeLeft += 1;
         }, 1000);
+
         startBtn.addEventListener("click", intoQuiz);
       };
       
