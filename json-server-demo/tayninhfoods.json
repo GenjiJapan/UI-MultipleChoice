@@ -1,173 +1,172 @@
 {
-  
-  "products":[
+    "products":[
       {
         "id": 1,
-        "name": "Bánh tráng dầu muối bột tuổi thơ",
+        "name": "Bánh tráng chấm sốt chua cay ",
         "categoryId": 1,
-        "price": 15000,
+        "price": 7000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470929038
       },
       {
         "id": 2,
-        "name": "Bánh tráng bơ muối",
+        "name": "Bánh tráng muối xì ke cay",
         "categoryId": 1,
-        "price": 75000,
+        "price": 9000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470941537
       },
       {
         "id": 3,
-        "name": "Bánh tráng tỏi ngọt muối nhuyễn",
+        "name": "Xâu bánh tráng trộn muối Tây Ninh ( 13 bịch )",
         "categoryId": 1,
-        "price": 75000,
+        "price": 15000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470947713
       },
       {
         "id": 4,
-        "name": "Bánh tráng sate dẻo ",
+        "name": "Bánh tráng ống muối ",
         "categoryId": 1,
-        "price": 15000,
+        "price": 7000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470955600
       },
       {
         "id": 5,
-        "name": "Bánh tráng ớt tươi muối nhuyễn",
+        "name": "Bánh tráng phô mai nhiều loại  ",
         "categoryId": 1,
-        "price": 75000,
+        "price": 8000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470959660
       },
       {
         "id": 6,
-        "name": "Bánh tráng bơ me dẻo tôm",
+        "name": "Bánh tráng phơi sương xé sẵn nhiều loại",
         "categoryId": 1,
-        "price": 28000,
+        "price": 10000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623470963909
       },
       {
         "id": 7,
-        "name": "Bánh tráng xâu tôm",
+        "name": "Bánh tráng nghệ sĩ ",
         "categoryId": 1,
-        "price": 17000,
+        "price": 8000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471090291
       },
       {
         "id": 8,
-        "name": "Bánh tráng bơ chà bông ( Dẻo tôm )",
+        "name": "Bánh tráng tự trộn thập cẩm",
         "categoryId": 1,
-        "price": 28000,
+        "price": 15000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471094623
       },
       {
         "id": 9,
-        "name": "Bánh tráng xâu tôm ( Dẻo cay )",
+        "name": "Bánh tráng cuốn hành phi ( 8 cuốn )",
         "categoryId": 1,
-        "price": 28000,
+        "price": 8000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471098160
       },
       {
         "id": 10,
-        "name": "Bánh tráng xâu muối khô",
+        "name": "Bánh tráng trộn rong biển",
         "categoryId": 1,
-        "price": 12000,
+        "price": 9000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471101625
       },
       {
         "id": 11,
-        "name": "Bánh tráng xâu dẻo cuốn hành phi ( Dẻo cay )",
+        "name": "Bánh tráng chấm phơi sương",
         "categoryId": 1,
-        "price": 50000,
+        "price": 9000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471105607
       },
       {
         "id": 12,
-        "name": "Bánh tráng xâu dẻo cuốn hành phi ( Dẻo tôm )",
+        "name": "Bánh tráng bơ Tây Ninh",
         "categoryId": 1,
-        "price": 50000,
+        "price": 12000,
         "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
         "updatedAt": 1623471108598
       },
       {
         "id": 13,
-        "name": "Bánh tráng xâu sate phơi sương ( Muối nhuyễn )",
+        "name": "Bánh tráng sợi dẻo sate tỏi  ",
         "categoryId": 1,
-        "price": 18000
+        "price": 7000
       },
       {
         "id": 14,
-        "name": "Bánh tráng xâu sate phơi sương ( Muối hột )",
+        "name": "Bánh tráng trộn sẵn miếng vuông ",
         "categoryId": 1,
-        "price": 18000
+        "price": 8000
       },
       {
         "id": 15,
-        "name": "Bánh tráng xâu dẻo hành phi",
+        "name": "Bánh tráng xoài Nha Trang ",
         "categoryId": 1,
-        "price": 15000
+        "price": 25000
       },
       {
         "id": 16,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Bơ dẻo cay )",
+        "name": "Bánh tráng sate tỏi phơi sương ( miếng )",
         "categoryId": 1,
-        "price": 15000
+        "price": 8000
       },
       {
         "id": 17,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Tương ớt dẻo cay )",
+        "name": "Bánh tráng trộn chà bông ",
         "categoryId": 1,
-        "price": 15000
+        "price": 9000
       },
       {
         "id": 18,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Me dẻo tôm )",
+        "name": "Bánh tráng trộn muối tỏi miếng vuông ",
         "categoryId": 1,
-        "price": 15000
+        "price": 8000
       },
       {
         "id": 19,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Bơ dẻo tôm )",
+        "name": "Bánh tráng bơ me ",
         "categoryId": 1,
         "price": 15000
       },
       {
         "id": 20,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Bơ phơi sương )",
+        "name": "Bánh tráng muối nhiễn phơi sương Tây Ninh ",
         "categoryId": 1,
-        "price": 15000
+        "price": 8000
       },
       {
         "id": 21,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Tương ớt dẻo tôm ) ",
+        "name": "Bánh tráng dầu tỏi muối ",
         "categoryId": 1,
-        "price": 15000
+        "price": 8000
       },
       {
         "id": 22,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Tương ớt phơi sương )",
+        "name": "Bánh tráng trộn sợi bò",
         "categoryId": 1,
-        "price": 15000
+        "price": 8000
       },
       {
         "id": 23,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Me dẻo cay )",
+        "name": "Bánh tráng dẻo chấm muối siêu cay",
         "categoryId": 1,
-        "price": 15000
+        "price": 10000
       },
       {
         "id": 24,
-        "name": "Bánh tráng xâu muối Tây Ninh ( Me phơi sương )",
+        "name": "Bánh tráng dẻo chấm sate muối ",
         "categoryId": 1,
-        "price": 15000
+        "price": 10000
       }
     ]
 }

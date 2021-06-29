@@ -1,0 +1,36 @@
+{
+    "products":[
+      {
+        "id": 1,
+        "name": "Tím",
+        "categoryId": 1,
+        "price": 45000,
+        "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        "updatedAt": 1623470929038
+      },
+      {
+        "id": 2,
+        "name": "Hồng đậm",
+        "categoryId": 1,
+        "price": 45000,
+        "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        "updatedAt": 1623470941537
+      },
+      {
+        "id": 3,
+        "name": "Hồng nhạt",
+        "categoryId": 1,
+        "price": 45000,
+        "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        "updatedAt": 1623470947713
+      },
+      {
+        "id": 4,
+        "name": "Vàng ",
+        "categoryId": 1,
+        "price": 45000,
+        "imageUrl": "https://images.unsplash.com/photo-1601390696201-26d122e73f94?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=889&q=80",
+        "updatedAt": 1623470955600
+      }
+    ]
+}

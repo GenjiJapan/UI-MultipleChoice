@@ -1,0 +1,23 @@
+{
+  "name": "json-server-demo",
+  "version": "1.0.0",
+  "description": "how to use json server",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "json-server"
+  ],
+  "author": "nghi le",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "query-string": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

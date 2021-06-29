@@ -1,0 +1,32 @@
+@baseUrl = http://localhost:4000/snacks
+@resourceName = posts
+
+# @name getAllCategory
+# GET {{baseUrl}}/{{resourceName}}
+GET {{baseUrl}}/products?_page=1&_limit=5
+
+###
+
+# @name filtersProducts
+GET {{baseUrl}}/{{resourceName}}?prices_gte=900
+Content-Type: application/json
+
+{
+    "body" : "le duc nghi"
+}
+
+
+###
+
+# @name updateCategory
+PATCH  {{baseUrl}}/{{resourceName}}/2
+Content-Type: application/json
+
+{
+    "body" : "le duc nghi 2"
+}
+
+###
+
+# @name removeCategory
+DELETE {{baseUrl}}/{{resourceName}}/2

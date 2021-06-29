@@ -1,0 +1,38 @@
+@baseUrl = http://localhost:4000/fastfoods
+
+# Categories
+
+# @name getAllCategories
+GET {{baseUrl}}/products?_limit=2&_page=1
+
+###
+# @name getAllCategories
+GET {{baseUrl}}/products
+
+###
+
+# @name addNewCategory
+POST {{baseUrl}}/products
+Content-Type: application/json
+
+{
+    "id": 13,
+    "name": "Bánh tráng xâu tôm",
+    "categoryId": 1,
+    "price": 17000,
+}
+
+###
+
+# @name updateCategory
+PATCH {{baseUrl}}/categories/2
+Content-Type: application/json
+
+{
+  "name": "New Laptop"
+}
+
+###
+
+# @name removeCategory
+DELETE {{baseUrl}}/categories/2
